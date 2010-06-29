@@ -1,0 +1,2357 @@
+[Shopify App] Shopify App plugin installed but no config/shopify.yml found.
+[Shopify App] Loading API credentials from config/shopify.yml
+/!\ FAILSAFE /!\  Mon Jun 28 14:49:18 +0530 2010
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+[Shopify App] Loading API credentials from config/shopify.yml
+/!\ FAILSAFE /!\  Mon Jun 28 14:52:06 +0530 2010
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 14:52:44) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4456a88 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 718ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 14:52:45) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 328ms (View: 313, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 14:53:49) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4830e74 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 14:53:49) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 14:53:54) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4798110 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 14:53:54) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2010-06-28 14:56:05) [POST]
+  Parameters: {"shop"=>"sportscardgirl", "commit"=>"Install", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE="}
+Redirected to http://sportscardgirl.myshopify.com/admin/api/auth?api_key=998ffc8d88c4aa5a720ded3c91c31333
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/login/authenticate]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2010-06-28 14:59:07) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "timestamp"=>"1277717347", "signature"=>"0ba6d8d816b9a6667247d3b96806ce53", "t"=>"5d9798fca1098a63dc38451c061c055f"}
+Redirected to http://localhost:3000/home/design
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/login/finalize?shop=sportscardgirl.myshopify.com&timestamp=1277717347&signature=0ba6d8d816b9a6667247d3b96806ce53&t=5d9798fca1098a63dc38451c061c055f]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 14:59:07) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 14:59:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4703ms (View: 1484, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 15:59:52) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 15:59:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4703ms (View: 1672, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 16:18:34) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+
+ActionController::RoutingError (No route matches "/admin" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 16:21:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4812ms (View: 1578, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 16:21:46) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+
+ActionController::RoutingError (No route matches "/admin" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:11:00) [GET]
+
+ActiveResource::UnauthorizedAccess (Failed with 401 Unauthorized):
+  app/controllers/home_controller.rb:12:in `index'
+
+Rendered rescues/_trace (578.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:12:10) [GET]
+
+ActiveResource::UnauthorizedAccess (Failed with 401 Unauthorized):
+  app/controllers/home_controller.rb:12:in `index'
+
+Rendered rescues/_trace (359.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:12:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 109ms (View: 93, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2010-06-28 17:13:08) [GET]
+Redirected to http://localhost:3000/login
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/login/logout]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:13:08) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:13:15) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x464ab64 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:13:15) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 17:13:17) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4868f2c @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:13:17) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2010-06-28 17:13:42) [POST]
+  Parameters: {"shop"=>"sportscardgirl", "commit"=>"Install", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE="}
+Redirected to http://sportscardgirl.myshopify.com/admin/api/auth?api_key=998ffc8d88c4aa5a720ded3c91c31333
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/login/authenticate]
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:16:29) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2010-06-28 17:16:31) [POST]
+  Parameters: {"shop"=>"sportscardgirl", "commit"=>"Install", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE="}
+Redirected to http://sportscardgirl.myshopify.com/admin/api/auth?api_key=86d9e208e7b3ac1e92448f7e7582c095
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/login/authenticate]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:17:11) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:17:35) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47b5f30 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:17:36) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:22:15) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x472a19c @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:22:16) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 17:24:51) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4698864 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:24:51) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:26:48) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46067e8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/home/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:26:48) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:28:45) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:28:54) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x488670c @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:28:54) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2010-06-28 17:29:18) [POST]
+  Parameters: {"shop"=>"sportscardgirl", "commit"=>"Install", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE="}
+Redirected to http://sportscardgirl.myshopify.com/admin/api/auth?api_key=86d9e208e7b3ac1e92448f7e7582c095
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/login/authenticate]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:30:14) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47ac55c @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @identifier=nil, @method=:shopify_session>] did_not_yield.
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:30:14) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2010-06-28 17:30:46) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2010-06-28 17:30:50) [POST]
+  Parameters: {"shop"=>"sportscardgirl", "commit"=>"Install", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE="}
+Redirected to http://sportscardgirl.myshopify.com/admin/api/auth?api_key=86d9e208e7b3ac1e92448f7e7582c095
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/login/authenticate]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2010-06-28 17:30:51) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "timestamp"=>"1277726451", "signature"=>"33ce09efe2ab034911e5b3671c22379e", "t"=>"412a566a33ea085d2aa4f35c1240ba82"}
+Redirected to http://localhost:3000/
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/login/finalize?shop=sportscardgirl.myshopify.com&timestamp=1277726451&signature=33ce09efe2ab034911e5b3671c22379e&t=412a566a33ea085d2aa4f35c1240ba82]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:30:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5376ms (View: 1750, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:34:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4641ms (View: 1500, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:35:07) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5829ms (View: 1672, DB: 0) | 200 OK [http://localhost/?shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:35:45) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product
+Completed in 6297ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:35:52) [GET]
+Rendering template within layouts/application
+Rendering home/product
+Completed in 312ms (View: 281, DB: 0) | 200 OK [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-28 17:38:19) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:39:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4328ms (View: 1453, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:39:53) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product
+Completed in 6031ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:39:59) [GET]
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #1 of app/views/home/product.html.erb:
+1: <h2>Make an offer for <%=@product.title%></h2>
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (484.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:40:50) [GET]
+Rendering template within layouts/application
+Rendering home/product
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:45:31) [GET]
+Rendering template within layouts/application
+Rendering home/product
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:45:44) [GET]
+Rendering template within layouts/application
+Rendering home/product
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:47:10) [GET]
+Rendering template within layouts/application
+Rendering home/product
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:47:43) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?locals%5Bproduct%5D=Shopify+T-Shirt
+Completed in 6407ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:47:50) [GET]
+  Parameters: {"locals"=>{"product"=>"Shopify T-Shirt"}}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/home/product?locals%5Bproduct%5D=Shopify+T-Shirt]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:51:46) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/product?titleShopify T-Shirt
+Completed in 6844ms (DB: 16) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 17:51:53) [GET]
+  Parameters: {"titleShopify T-Shirt"=>nil}
+
+ActionController::RoutingError (No route matches "/product" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:52:11) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?titleShopify T-Shirt
+Completed in 6296ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:52:18) [GET]
+  Parameters: {"titleShopify T-Shirt"=>nil}
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (undefined local variable or method `title' for #<ActionView::Base:0x461a89c>) on line #1 of app/views/home/product.html.erb:
+1: <h2>Make an offer for <%=title%></h2>
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-28 17:52:35) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt
+Completed in 6204ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:52:42) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (undefined local variable or method `title' for #<ActionView::Base:0x4782b08>) on line #1 of app/views/home/product.html.erb:
+1: <h2>Make an offer for <%=title%></h2>
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (516.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 17:57:18) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt]
+[Shopify App] Loading API credentials from config/shopify.yml
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (78.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (171.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOffers (20100628123051)
+  [4;36;1mSQL (47.0ms)[0m   [0;1mCREATE TABLE `offers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `offer_price` int(11), `offer_message` varchar(255), `shop` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100628123051')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `offers`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW KEYS FROM `offers`[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 18:14:34) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 250ms (View: 250, DB: 0) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 18:16:39) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-28 18:17:32) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt]
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 09:26:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5621ms (View: 1827, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 09:30:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4936ms (View: 1422, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 09:36:36) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt
+Completed in 5905ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 09:36:42) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 156ms (View: 140, DB: 0) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 09:37:16) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"offer_message"=>"re", "offer_price"=>"66"}}
+Rendering template within layouts/application
+Rendering home/product
+Completed in 63ms (View: 32, DB: 0) | 200 OK [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 09:41:57) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt&shop=#<ShopifyAPI::Shop:0x487fa60>
+Completed in 12875ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 09:42:10) [GET]
+  Parameters: {"shop"=>"", "title"=>"Shopify T-Shirt"}
+  [4;36;1mOffer Columns (62.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 109ms (View: 15, DB: 62) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt&shop=]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-29 09:53:45) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 485ms (View: 485, DB: 0) | 200 OK [http://localhost/home/design]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 09:55:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5343ms (View: 1594, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-29 09:59:53) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/home/design]
+[Shopify App] Loading API credentials from config/shopify.yml
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOffers (20100628123051)
+  [4;36;1mSQL (47.0ms)[0m   [0;1mDROP TABLE `offers`[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20100628123051'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOffers (20100628123051)
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCREATE TABLE `offers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `offer_price` int(11), `offer_message` varchar(255), `shop` varchar(255), `product_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100628123051')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `offers`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `offers`[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:22:13) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt
+Completed in 6532ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:22:19) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+  [4;36;1mOffer Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (undefined method `error_message_for' for #<ActionView::Base:0x47b7448>) on line #4 of app/views/home/product.html.erb:
+1: <h2>Make an offer for product <%=params[:title]%></h2>
+2: 
+3: <% form_for :offer do |f|%>
+4: <p class="light"><%=error_message_for :offer%></p>
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :shop,:value=>"ss"%>
+7: <%f.hidden_field :product_id,:value=>@product.id%>
+
+    app/views/home/product.html.erb:4
+    app/views/home/product.html.erb:3
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:22:58) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+  [4;35;1mOffer Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (undefined method `error_message_for' for #<ActionView::Helpers::FormBuilder:0x46cb7f0>) on line #4 of app/views/home/product.html.erb:
+1: <h2>Make an offer for product <%=params[:title]%></h2>
+2: 
+3: <% form_for :offer do |f|%>
+4: <p class="light"><%=f.error_message_for :offer%></p>
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :shop,:value=>"ss"%>
+7: <%f.hidden_field :product_id,:value=>@product.id%>
+
+    app/views/home/product.html.erb:4
+    app/views/home/product.html.erb:3
+
+Rendered rescues/_trace (406.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:30:10) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #7 of app/views/home/product.html.erb:
+4: <p class="light"></p>
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :shop,:value=>"ss"%>
+7: <%f.hidden_field :product_id,:value=>@product.id%>
+8:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+9: <p>  <%=submit_tag "Make an offer"%></p>
+10: <%end%>
+
+    app/views/home/product.html.erb:7
+    app/views/home/product.html.erb:3
+
+Rendered rescues/_trace (703.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:30:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4468ms (View: 1438, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:31:31) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt
+Completed in 5906ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:31:37) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found):
+  app/controllers/home_controller.rb:27:in `product'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:32:31) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt
+Completed in 6046ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:32:37) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+ERROR: compiling _run_erb_app47views47home47product46html46erb RAISED compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:7: syntax error, unexpected ';'
+f.hidden_field :product_id,:value=>; @output_buffer.concat "\n"
+                                    ^
+Function body:           def _run_erb_app47views47home47product46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h2>Make an offer for product "; @output_buffer.concat((params[:title]).to_s); @output_buffer.concat "</h2>\n"
+@output_buffer.concat "\n"
+ form_for :offer do |f|; @output_buffer.concat "\n"
+@output_buffer.concat "<p class=\"light\"></p>\n"
+@output_buffer.concat "<p>Price:<br/>"; @output_buffer.concat((f.text_field :offer_price).to_s); @output_buffer.concat "</p>\n"
+f.hidden_field :shop,:value=>"ss"; @output_buffer.concat "\n"
+f.hidden_field :product_id,:value=>; @output_buffer.concat "\n"
+@output_buffer.concat " <p>Comment:<br/> "; @output_buffer.concat((f.text_area :offer_message, :rows=>4,:cols=>23).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "<p>  "; @output_buffer.concat((submit_tag "Make an offer").to_s); @output_buffer.concat "</p>\n"
+end; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:13:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:638:in `run_before_filters'
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/vendor/plugins/shopify_app/lib/shopify_login_protection.rb:8:in `shopify_session'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `evaluate_method'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:186:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:635:in `run_before_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:7: syntax error, unexpected ';'
+f.hidden_field :product_id,:value=>; @output_buffer.concat "\n"
+                                    ^) on line #7 of app/views/home/product.html.erb:
+4: <p class="light"></p>
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :shop,:value=>"ss"%>
+7: <%f.hidden_field :product_id,:value=>%>
+8:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+9: <p>  <%=submit_tag "Make an offer"%></p>
+10: <%end%>
+
+    app/views/home/product.html.erb:13:in `compile!'
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:33:08) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?title=Shopify T-Shirt
+Completed in 5844ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:33:14) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 297ms (View: 62, DB: 0) | 200 OK [http://localhost/home/product?title=Shopify%20T-Shirt]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:34:20) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4297ms (View: 1438, DB: 0) | 200 OK [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:39:39) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=#<ShopifyAPI::Shop:0x46d1da8>
+Completed in 7187ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:39:47) [GET]
+  Parameters: {"shop"=>"", "id"=>"19375542"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:40:07) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=#<ShopifyAPI::Shop:0x470b24c @prefix_options={}, @attributes={"money_format"=>"${{amount}}", "address1"=>"1503 Calle Mirador #B", "name"=>"Sports Card Girl", "city"=>"San Clemente", "plan_name"=>"trial", "zip"=>"92672", "public"=>false, "timezone"=>"(GMT-08:00) Pacific Time (US & Canada)", "domain"=>"sportscardgirl.myshopify.com", "country"=>"US", "money_with_currency_format"=>"${{amount}} USD", "id"=>511692, "tax_shipping"=>nil, "taxes_included"=>false, "phone"=>"949-257-2274", "source"=>nil, "province"=>"California", "currency"=>"USD", "created_at"=>Tue Jun 22 20:42:23 UTC 2010, "shop_owner"=>"Brandon Olson", "email"=>"brandon@solutionsmonkey.com"}>
+Completed in 6235ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:40:13) [GET]
+  Parameters: {"shop"=>"", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:40:59) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 6234ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:41:05) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:42:04) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1891ms (View: 1766, DB: 16) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:44:17) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1718ms (View: 1687, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:44:37) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1797ms (View: 1765, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:45:42) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"offer_message"=>"", "offer_price"=>"45"}}
+  [4;35;1mOffer Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (Failed with 404 Not Found) on line #1 of app/views/home/product.html.erb:
+1: <p class="light">Make an offer for <%=ShopifyAPI::Product.find(params[:id]).title%></p>
+2: 
+3: <% form_for :offer do |f|%>
+4: 
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (312.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:52:20) [GET]
+  Parameters: {"title"=>"Shopify T-Shirt"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (Failed with 404 Not Found) on line #1 of app/views/home/product.html.erb:
+1: <p class="light">Make an offer for <%=ShopifyAPI::Product.find(params[:id]).title%></p>
+2: 
+3: <% form_for :offer do |f|%>
+4: 
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (421.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:52:23) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 5703ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:52:28) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 10:55:10) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 6469ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 10:55:16) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1875ms (View: 1859, DB: 16) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:01:23) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1641ms (View: 1625, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#create_offer (for 127.0.0.1 at 2010-06-29 11:02:44) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"offer_message"=>"", "offer_price"=>"45"}}
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/home_controller.rb:32:in `params'
+  app/controllers/home_controller.rb:32:in `create_offer'
+
+Rendered rescues/_trace (594.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#create_offer (for 127.0.0.1 at 2010-06-29 11:03:24) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"offer_message"=>"", "offer_price"=>"45"}}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES(NULL, '2010-06-29 05:33:24', NULL, '', 45, '2010-06-29 05:33:24')[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering home/create_offer
+Completed in 156ms (View: 47, DB: 78) | 200 OK [http://localhost/home/create_offer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 11:06:59) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 9390ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:07:09) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+ERROR: compiling _run_erb_app47views47home47product46html46erb RAISED compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+hidden_field :offer ,:shop,; @output_buffer.concat "\n"
+                            ^
+Function body:           def _run_erb_app47views47home47product46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p class=\"light\">Make an offer for "; @output_buffer.concat((ShopifyAPI::Product.find(params[:id]).title).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+ form_for :offer ,:url=>{:action=>"create_offer"} do |f|; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>Price:<br/>"; @output_buffer.concat((f.text_field :offer_price).to_s); @output_buffer.concat "</p>\n"
+hidden_field :offer ,:shop,; @output_buffer.concat "\n"
+hidden_field :offer, :product_id; @output_buffer.concat "\n"
+@output_buffer.concat " <p>Comment:<br/> "; @output_buffer.concat((f.text_area :offer_message, :rows=>4,:cols=>23).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "<p>  "; @output_buffer.concat((submit_tag "Make an offer").to_s); @output_buffer.concat "</p>\n"
+end; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:13:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:638:in `run_before_filters'
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/vendor/plugins/shopify_app/lib/shopify_login_protection.rb:8:in `shopify_session'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `evaluate_method'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:186:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:635:in `run_before_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+hidden_field :offer ,:shop,; @output_buffer.concat "\n"
+                            ^) on line #6 of app/views/home/product.html.erb:
+3: <% form_for :offer ,:url=>{:action=>"create_offer"} do |f|%>
+4: 
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%hidden_field :offer ,:shop,%>
+7: <%hidden_field :offer, :product_id%>
+8:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+9: <p>  <%=submit_tag "Make an offer"%></p>
+
+    app/views/home/product.html.erb:13:in `compile!'
+
+Rendered rescues/_trace (344.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:08:22) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+ERROR: compiling _run_erb_app47views47home47product46html46erb RAISED compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+f.hidden_field :shop,; @output_buffer.concat "\n"
+                      ^
+Function body:           def _run_erb_app47views47home47product46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p class=\"light\">Make an offer for "; @output_buffer.concat((ShopifyAPI::Product.find(params[:id]).title).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+ form_for :offer ,:url=>{:action=>"create_offer"} do |f|; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>Price:<br/>"; @output_buffer.concat((f.text_field :offer_price).to_s); @output_buffer.concat "</p>\n"
+f.hidden_field :shop,; @output_buffer.concat "\n"
+f.hidden_field :product_id; @output_buffer.concat "\n"
+@output_buffer.concat " <p>Comment:<br/> "; @output_buffer.concat((f.text_area :offer_message, :rows=>4,:cols=>23).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "<p>  "; @output_buffer.concat((submit_tag "Make an offer").to_s); @output_buffer.concat "</p>\n"
+end; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:13:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:638:in `run_before_filters'
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/vendor/plugins/shopify_app/lib/shopify_login_protection.rb:8:in `shopify_session'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `evaluate_method'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:186:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:635:in `run_before_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+f.hidden_field :shop,; @output_buffer.concat "\n"
+                      ^) on line #6 of app/views/home/product.html.erb:
+3: <% form_for :offer ,:url=>{:action=>"create_offer"} do |f|%>
+4: 
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :shop,%>
+7: <%f.hidden_field :product_id%>
+8:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+9: <p>  <%=submit_tag "Make an offer"%></p>
+
+    app/views/home/product.html.erb:13:in `compile!'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 11:08:34) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 6094ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:08:40) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+ERROR: compiling _run_erb_app47views47home47product46html46erb RAISED compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+f.hidden_field :shop,; @output_buffer.concat "\n"
+                      ^
+Function body:           def _run_erb_app47views47home47product46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p class=\"light\">Make an offer for "; @output_buffer.concat((ShopifyAPI::Product.find(params[:id]).title).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+ form_for :offer ,:url=>{:action=>"create_offer"} do |f|; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>Price:<br/>"; @output_buffer.concat((f.text_field :offer_price).to_s); @output_buffer.concat "</p>\n"
+f.hidden_field :shop,; @output_buffer.concat "\n"
+f.hidden_field :product_id; @output_buffer.concat "\n"
+@output_buffer.concat " <p>Comment:<br/> "; @output_buffer.concat((f.text_area :offer_message, :rows=>4,:cols=>23).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "<p>  "; @output_buffer.concat((submit_tag "Make an offer").to_s); @output_buffer.concat "</p>\n"
+end; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:13:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:638:in `run_before_filters'
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/vendor/plugins/shopify_app/lib/shopify_login_protection.rb:8:in `shopify_session'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `evaluate_method'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:186:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:635:in `run_before_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+f.hidden_field :shop,; @output_buffer.concat "\n"
+                      ^) on line #6 of app/views/home/product.html.erb:
+3: <% form_for :offer ,:url=>{:action=>"create_offer"} do |f|%>
+4: 
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :shop,%>
+7: <%f.hidden_field :product_id%>
+8:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+9: <p>  <%=submit_tag "Make an offer"%></p>
+
+    app/views/home/product.html.erb:13:in `compile!'
+
+Rendered rescues/_trace (282.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:09:12) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+ERROR: compiling _run_erb_app47views47home47product46html46erb RAISED compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+f.hidden_field :offer ,:shop,; @output_buffer.concat "\n"
+                              ^
+Function body:           def _run_erb_app47views47home47product46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p class=\"light\">Make an offer for "; @output_buffer.concat((ShopifyAPI::Product.find(params[:id]).title).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+ form_for :offer ,:url=>{:action=>"create_offer"} do |f|; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>Price:<br/>"; @output_buffer.concat((f.text_field :offer_price).to_s); @output_buffer.concat "</p>\n"
+f.hidden_field :offer ,:shop,; @output_buffer.concat "\n"
+f.hidden_field :offer, :product_id; @output_buffer.concat "\n"
+@output_buffer.concat " <p>Comment:<br/> "; @output_buffer.concat((f.text_area :offer_message, :rows=>4,:cols=>23).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "<p>  "; @output_buffer.concat((submit_tag "Make an offer").to_s); @output_buffer.concat "</p>\n"
+end; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:13:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:638:in `run_before_filters'
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/vendor/plugins/shopify_app/lib/shopify_login_protection.rb:8:in `shopify_session'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `evaluate_method'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:186:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:635:in `run_before_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/Documents and Settings/sanjay/Desktop/Projects/my_shopify/app/views/home/product.html.erb:6: syntax error, unexpected ';'
+f.hidden_field :offer ,:shop,; @output_buffer.concat "\n"
+                              ^) on line #6 of app/views/home/product.html.erb:
+3: <% form_for :offer ,:url=>{:action=>"create_offer"} do |f|%>
+4: 
+5: <p>Price:<br/><%=f.text_field :offer_price%></p>
+6: <%f.hidden_field :offer ,:shop,%>
+7: <%f.hidden_field :offer, :product_id%>
+8:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+9: <p>  <%=submit_tag "Make an offer"%></p>
+
+    app/views/home/product.html.erb:13:in `compile!'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:13:20) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (undefined method `merge' for :product_id:Symbol) on line #9 of app/views/home/product.html.erb:
+6: <input type="hidden" id="offer_shop" name="offer[shop]" value="<%=params[:shop]%>" />
+7: <input type="hidden" id="offer_product_id" name="offer[product_id]" value="<%=params[:id]%>" />
+8: 
+9: <%f.hidden_field :offer, :product_id%>
+10:  <p>Comment:<br/> <%=f.text_area :offer_message, :rows=>4,:cols=>23%></p>
+11: <p>  <%=submit_tag "Make an offer"%></p>
+12: <%end%>
+
+    app/views/home/product.html.erb:9
+    app/views/home/product.html.erb:3
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:13:39) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1766ms (View: 1735, DB: 15) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#create_offer (for 127.0.0.1 at 2010-06-29 11:14:14) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"wqwqw", "offer_price"=>"23"}}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (16.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 05:44:14', 19375542, 'wqwqw', 23, '2010-06-29 05:44:14')[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering home/create_offer
+Completed in 78ms (View: 16, DB: 31) | 200 OK [http://localhost/home/create_offer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 11:25:22) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 5796ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:25:28) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1547ms (View: 1515, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 11:25:57) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1734ms (View: 1672, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#create_offer (for 127.0.0.1 at 2010-06-29 11:26:13) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"45trtrtrt", "offer_price"=>"4444"}}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 05:56:13', 19375542, '45trtrtrt', 4444, '2010-06-29 05:56:13')[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering home/create_offer
+Completed in 125ms (View: 16, DB: 47) | 200 OK [http://localhost/home/create_offer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 12:00:39) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 5813ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:00:45) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 2031ms (View: 2000, DB: 15) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 12:21:33) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 5766ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:21:39) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 1734ms (View: 1719, DB: 15) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:22:23) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"2121", "offer_price"=>"34"}}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 06:52:23', 19375542, '2121', 34, '2010-06-29 06:52:23')[0m
+  [4;35;1mSQL (78.0ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (Failed with 404 Not Found) on line #1 of app/views/home/product.html.erb:
+1: <p class="light">Make an offer for <%=ShopifyAPI::Product.find(params[:id]).title%></p>
+2: 
+3: <% form_for :offer do |f|%>
+4: 
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (437.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:25:05) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 2469ms (View: 2219, DB: 0) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:25:10) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"2121", "offer_price"=>"34"}}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOffer Create (0.0ms)[0m   [0mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 06:55:10', 19375542, '2121', 34, '2010-06-29 06:55:10')[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mCOMMIT[0m
+Rendering template within layouts/application
+Rendering home/product
+
+ActionView::TemplateError (Failed with 404 Not Found) on line #1 of app/views/home/product.html.erb:
+1: <p class="light">Make an offer for <%=ShopifyAPI::Product.find(params[:id]).title%></p>
+2: 
+3: <% form_for :offer,{:id=>params[:id],:shop=>params[:shop]} do |f|%>
+4: 
+
+    app/views/home/product.html.erb:1
+
+Rendered rescues/_trace (453.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:31:10) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"2121", "offer_price"=>"34"}}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOffer Create (0.0ms)[0m   [0mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 07:01:10', 19375542, '2121', 34, '2010-06-29 07:01:10')[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/home/review?id=6
+Completed in 63ms (DB: 16) | 302 Found [http://localhost/home/product]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:31:11) [GET]
+  Parameters: {"id"=>"6"}
+Rendering template within layouts/application
+Rendering home/review
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #1 of app/views/home/review.html.erb:
+1: <%=@product.title%> is now available for review
+
+    app/views/home/review.html.erb:1
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:31:46) [GET]
+  Parameters: {"id"=>"6"}
+Rendering template within layouts/application
+Rendering home/review
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #1 of app/views/home/review.html.erb:
+1: <%=@product.title%> is now available for review
+
+    app/views/home/review.html.erb:1
+
+Rendered rescues/_trace (640.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:32:01) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;35;1mOffer Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 3235ms (View: 3203, DB: 16) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:32:59) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"2121", "offer_price"=>"34"}}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 07:02:59', 19375542, '2121', 34, '2010-06-29 07:02:59')[0m
+  [4;35;1mSQL (109.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/home/review?id=7
+Completed in 140ms (DB: 125) | 302 Found [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:32:59) [GET]
+  Parameters: {"id"=>"7"}
+Rendering template within layouts/application
+Rendering home/review
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #1 of app/views/home/review.html.erb:
+1: <%=@product.title%> is now available for review
+
+    app/views/home/review.html.erb:1
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:35:04) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"2121", "offer_price"=>"3411"}}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 07:05:04', 19375542, '2121', 3411, '2010-06-29 07:05:04')[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/home/review?id=8
+Completed in 79ms (DB: 63) | 302 Found [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:35:04) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering home/review
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/home/review?id=8]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 12:40:16) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"2121", "offer_price"=>"3411"}}
+  [4;36;1mOffer Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 07:10:16', 19375542, '2121', 3411, '2010-06-29 07:10:16')[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/home/review?id=9
+Completed in 78ms (DB: 62) | 302 Found [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:40:16) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering home/review
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/home/review?id=9]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:41:37) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mOffer Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mOffer Load (0.0ms)[0m   [0mSELECT * FROM `offers` WHERE (`offers`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering home/review
+Completed in 1906ms (View: 15, DB: 15) | 200 OK [http://localhost/home/review?id=9]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 12:42:47) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mOffer Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mOffer Load (16.0ms)[0m   [0mSELECT * FROM `offers` WHERE (`offers`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering home/review
+Completed in 2422ms (View: 47, DB: 32) | 200 OK [http://localhost/home/review?id=9]
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2010-06-29 15:16:57) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 281ms (View: 266, DB: 0) | 200 OK [http://localhost/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 15:17:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10901ms (View: 6778, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 15:19:07) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mOffer Load (16.0ms)[0m   [0mSELECT * FROM `offers` WHERE (`offers`.`id` = 9) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Offer with ID=9):
+  app/controllers/home_controller.rb:43:in `review'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 15:19:45) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+Redirected to http://localhost:3000/home/product?id=19375542&shop=sportscardgirl.myshopify.com
+Completed in 10963ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19375542]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 15:19:56) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19375542"}
+  [4;36;1mOffer Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 3795ms (View: 3733, DB: 15) | 200 OK [http://localhost/home/product?id=19375542&shop=sportscardgirl.myshopify.com]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 15:20:24) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19375542", "offer_message"=>"offering less money", "offer_price"=>"34"}}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOffer Create (0.0ms)[0m   [0mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 09:50:24', 19375542, 'offering less money', 34, '2010-06-29 09:50:24')[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/home/review?id=10
+Completed in 109ms (DB: 46) | 302 Found [http://localhost/home/product]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 15:20:24) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mOffer Load (15.0ms)[0m   [0;1mSELECT * FROM `offers` WHERE (`offers`.`id` = 10) [0m
+Rendering template within layouts/application
+Rendering home/review
+Completed in 1890ms (View: 32, DB: 15) | 200 OK [http://localhost/home/review?id=10]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 15:21:11) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mOffer Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+  [4;36;1mOffer Load (32.0ms)[0m   [0;1mSELECT * FROM `offers` WHERE (`offers`.`id` = 10) [0m
+Rendering template within layouts/application
+Rendering home/review
+Completed in 2420ms (View: 0, DB: 47) | 200 OK [http://localhost/home/review?id=10]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-29 15:27:46) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19756072"}
+Redirected to http://localhost:3000/home/product?id=19756072&shop=sportscardgirl.myshopify.com
+Completed in 19138ms (DB: 0) | 302 Found [http://localhost/?shop=sportscardgirl.myshopify.com&id=19756072]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 15:28:05) [GET]
+  Parameters: {"shop"=>"sportscardgirl.myshopify.com", "id"=>"19756072"}
+  [4;35;1mOffer Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `offers`[0m
+Rendering template within layouts/application
+Rendering home/product
+Completed in 2093ms (View: 2062, DB: 0) | 200 OK [http://localhost/home/product?id=19756072&shop=sportscardgirl.myshopify.com]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#product (for 127.0.0.1 at 2010-06-29 15:28:17) [POST]
+  Parameters: {"commit"=>"Make an offer", "authenticity_token"=>"Ay87O8od/eev7avI9mtL1rCPAZP1gck+CfwOV500YeE=", "offer"=>{"shop"=>"sportscardgirl.myshopify.com", "product_id"=>"19756072", "offer_message"=>"wq", "offer_price"=>"32"}}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mOffer Create (0.0ms)[0m   [0;1mINSERT INTO `offers` (`shop`, `updated_at`, `product_id`, `offer_message`, `offer_price`, `created_at`) VALUES('sportscardgirl.myshopify.com', '2010-06-29 09:58:17', 19756072, 'wq', 32, '2010-06-29 09:58:17')[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/home/review?id=11
+Completed in 63ms (DB: 47) | 302 Found [http://localhost/home/product]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#review (for 127.0.0.1 at 2010-06-29 15:28:17) [GET]
+  Parameters: {"id"=>"11"}
+  [4;36;1mOffer Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `offers`[0m
+  [4;35;1mOffer Load (15.0ms)[0m   [0mSELECT * FROM `offers` WHERE (`offers`.`id` = 11) [0m
+Rendering template within layouts/application
+Rendering home/review
+Completed in 2062ms (View: 15, DB: 15) | 200 OK [http://localhost/home/review?id=11]
